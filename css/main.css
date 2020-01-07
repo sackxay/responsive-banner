@@ -1,0 +1,9 @@
+html {
+  font-family: "Georgia", serif;
+  color: #fff;
+}
+
+.text {
+background-image: url("../images/earth-horizon.jpg");
+background-size: cover;
+}
