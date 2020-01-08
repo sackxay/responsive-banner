@@ -1,9 +1,23 @@
 html {
-  font-family: "Georgia", serif;
+  font-family: Georgia, serif;
   color: #fff;
 }
 
-.text {
-background-image: url("../images/earth-horizon.jpg");
-background-size: cover;
+.absolute {
+  position: absolute;
+}
+
+.magic {
+  max-height: 500px;
+  width: 100%;
+}
+
+.footnotes {
+  position: relative;
+  background-color: #495562;
+}
+
+.btn {
+  color: #fff;
+  padding: .2em .5em;
 }
