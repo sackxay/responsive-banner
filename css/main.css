@@ -3,21 +3,28 @@ html {
   color: #fff;
 }
 
-.absolute {
-  position: absolute;
-}
-
-.magic {
-  max-height: 500px;
-  width: 100%;
-}
-
-.footnotes {
-  position: relative;
+.content {
   background-color: #495562;
 }
 
 .btn {
   color: #fff;
   padding: .2em .5em;
+}
+
+.btn-hover {
+  border-color: #fff;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .banner {
+    max-height: 500px;
+    overflow: hidden;
+  }
+
+  img {
+    background-image: linear-gradient(to bottom, transparent, rgba(73, 85, 98, .9));
+  }
+
 }
