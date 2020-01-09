@@ -1,6 +1,6 @@
 html {
   font-family: Georgia, serif;
-  color: #fff;
+  color: #efefef;
 }
 
 .content {
@@ -10,10 +10,11 @@ html {
 .btn {
   color: #fff;
   padding: .2em .5em;
+  border-color: #97a49b
 }
 
 .btn-hover {
-  border-color: #fff;
+  border-color: #efefef;
 }
 
 @media only screen and (min-width: 60em) {
@@ -21,10 +22,17 @@ html {
   .banner {
     max-height: 500px;
     overflow: hidden;
+    position: relative;
+    z-index: 1;
   }
 
   img {
     background-image: linear-gradient(to bottom, transparent, rgba(73, 85, 98, .9));
+  }
+
+  .content {
+    position: absolute;
+    z-index: 1000;
   }
 
 }
