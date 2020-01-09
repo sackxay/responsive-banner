@@ -10,7 +10,7 @@ html {
 .btn {
   color: #fff;
   padding: .2em .5em;
-  border-color: #97a49b
+  border-color: #97a49b;
 }
 
 .btn-hover {
@@ -22,17 +22,20 @@ html {
   .banner {
     max-height: 500px;
     overflow: hidden;
-    position: relative;
-    z-index: 1;
-  }
-
-  img {
-    background-image: linear-gradient(to bottom, transparent, rgba(73, 85, 98, .9));
   }
 
   .content {
+    background-color: transparent;
+    background-image: linear-gradient(to bottom, transparent, rgba(73, 85, 98, .9));
     position: absolute;
-    z-index: 1000;
+    left: 0;
+    bottom: 0;
+  }
+
+  .btn {
+    border-color: #efefef;
+    position: absolute;
+    right: 0;
   }
 
 }
